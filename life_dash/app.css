@@ -1,0 +1,5 @@
+#main-grid {
+    grid-size: 2 2;
+    grid-rows: 4fr 1fr;
+    grid-columns: 1fr 1fr;
+}
