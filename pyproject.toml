@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "life_dash"  # <-- must match package folder name
+version = "0.1.0"
+description = "A terminal life dashboard built with Textual"
+requires-python = ">=3.11"
+dependencies = [
+    "textual>=0.45.0",
+    "pydantic",
+    "rich-click",
+    "toml"
+]
